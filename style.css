@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #00040d;
+}
+h1{
+    cursor: pointer;
+    color: #fffafa;
+    border: 4px solid #fffafa; 
+    padding: 20px ;
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+}
+
+#copyright
+{
+    color:#FFC0CB ;
+}
+h1:hover{
+    color: #FFC0CB;
+    border-color: #FFC0CB;   
+}
+
+.navi{
+    list-style: none;
+}
+
+.navi li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.navi li a{
+    text-decoration: none;
+    color: #fffafa;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+}
+
+.navi li a{
+    text-transform: uppercase;
+}
+
+.navi li a:hover{
+    color:#FFC0CB ;
+}
+
+button{
+    padding: 15px 45px;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgba(150, 107, 107, 0.685),rgb(241, 112, 155));
+}
+span{
+    color: #FFC0CB;
+}
+
+button:hover:after{
+    content: "in your area !";
+}
